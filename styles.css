@@ -1,0 +1,90 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #4d515d;
+	padding: 50px 0 30px 0;
+	font-family: "Roboto", sans-serif;
+}
+.box{
+	width: 72%;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 6px;
+	position: relative;
+}
+.box_container{
+	width: 64%;
+	height: 100%;
+}
+.become_member{
+	padding: 75px 50px 15px 60px;
+	max-width: 100%;
+}
+.become_member h1{
+	font-size: 34px;
+	font-weight: 300;
+	color: #000;
+}
+.become_member p{
+	font-size: 13px;
+	color: #aaaaaa;
+	padding: 20px 0;
+	letter-spacing: 0.3px;
+}
+.sign{
+	max-width: 80%;
+	margin: 20px auto;
+	height: 50px;
+	border: 1px solid rgb(226, 224, 224);
+	border-radius: 6px;
+	font-size: 13px;
+	padding: 20px 0;
+	text-align: center;
+	color: #8b8b8c;
+	position: relative;
+	cursor: pointer;
+}
+.sign:hover{
+	box-shadow: 0px 3px 11px 2px rgb(240, 240, 242);
+}
+.sign span img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 16px;
+	left: 20px;
+}
+.alternative{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	border-top: 1px solid rgb(226, 224, 224);
+	color: #8b8b8b;
+	padding: 30px 60px;
+	font-size: 13px;
+	margin-top: 60px;
+}
+.alternative p{
+	color: #000;
+}
+.alternative .email{
+	color: #8b8b8b;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 500;
+	cursor: pointer;
+}
+.alternative .email:hover{
+	color: #000;
+}
+.image img{
+	width: 36%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	right: 0;
+}
